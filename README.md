@@ -12,10 +12,9 @@ ____________________________________________________________________________
 Then, after entering number :-
     if selected number = (1-4) then
         ask for user input for two values to perform operation on such as 2 and 4.
-        
         if entered values != (int/float)
             print("Invalid input, enter correct input values...!!")
-
+            
     if selected number != (1-4) then
          print("Invalid input...!!")
 _____________________________________________________________________________
