@@ -16,7 +16,7 @@ ____________________________________________________________________________
 Then, created BinarySearchTree class which is used to perform operations on the tree such as insert, delete, inorder-traversal, delete operations.
 
 Methods:
-    1. __init__(self) used to initialize tree with root to None, i.e. empty tree.
+    1. <a name="unique-anchor-name"></a>__init__(self) used to initialize tree with root to None, i.e. empty tree.
 
     2. insert(self,key,value) used to insert new nodes with key-value (name,phone-number).
 
