@@ -2,9 +2,13 @@
 Binary Search Tree (BST) Implementation.
 ___________________________________________________________________________________________________________________________________________
 Binary Search Tree performs four operations :-
+
     1. Insertion of node
+
     2. Inorder Traversal
+
     3. Search node using name
+    
     4. Delete node
 __________________________________________________________________________________________________________________________________________
 Initially, created TreeNode class to represent node in the BST.Each node contains following :
