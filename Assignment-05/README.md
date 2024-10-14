@@ -12,6 +12,7 @@ Binary Search Tree performs four operations :-
     4. Delete node
 __________________________________________________________________________________________________________________________________________
 Initially, created TreeNode class to represent node in the BST.Each node contains following :
+
     1. key: variable used to store name of the person.
 
     2. value: variable used to store phone-number of the person in key variable.
@@ -44,6 +45,6 @@ Then, creating a object for BinarySearchTree class to call methods inside that c
     1. bst.insert(key,value) used to insert the nodes in the BST.2. bst.search(key) used to search node in the tree with the help of key provided during call of function to search matching key. If not found, prints message "No record found in the database."
 
     2. bst.inorder_traversal() performs traversal and returns sorted key-value pairs in list of tupels in result[]
-    
+
     3. bst.delete(bst.root,key) performs delete operation calling the delete function finds the key and according to that deletes the node from the tree
 _________________________________________________________________________________________________________________________________________
