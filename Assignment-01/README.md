@@ -1,5 +1,7 @@
-# CSCI605
-Calculator using Python
+# CSCI605 - DATA STRUCTURE AND ALGORITHM 
+# ASSIGNMENT - 01
+
+# Calculator using Python
 ____________________________________________________________________________
 Calculator performs fours basic operations :-
     1. Addition
