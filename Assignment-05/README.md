@@ -1,4 +1,6 @@
-# CSCI605
+# CSCI605 - DATA STRUCTURE AND ALGORITHMS
+# ASSIGNMENT - 05
+
 # Binary Search Tree (BST) Implementation.
 ___________________________________________________________________________________________________________________________________________
 ## Binary Search Tree performs four operations :-
