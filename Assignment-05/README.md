@@ -18,25 +18,17 @@ Then, created BinarySearchTree class which is used to perform operations on the 
 Methods:
     1. __init__(self) used to initialize tree with root to None, i.e. empty tree.
     2. insert(self,key,value) used to insert new nodes with key-value (name,phone-number).
-    3. 
-
+    3. inorder_traversal(self) performs the inorder traversal of the tree where it visits nodes in ascending order and returns all the key-value pairs in a sorted list of tuples in result[]
+    4. search(self, key) performs the searching of the node from the tree using key provided during call of the function search. If the key isn't found then it returns a message "No records found in the database."
+    5. delete(self,node,key) performs deletion of a node from tree where it handles 3 cases for node deletion.
+        a. Deleting node with no child
+        b. Deleting node with one child
+        c. Deleting node with two child
+    6. minValueNode(self,node) is helper function used in delete method. It finds the node with smallest key in the right subtree.
 __________________________________________________________________________________________________________________________________________
-then performing calculations as per selection of operation number :-
-    if operation number = 1 then
-        perform addition,display result and ask whether to continue or exit.
-    if operation number = 2 then
-        perform substraction,display result and ask whether to continue or exit.
-    if operation number = 3 then
-        perform multiplication,display result and ask whether to continue or exit.
-    if operation number = 4 then
-        if num2 = 0 then 
-            print("Division Error.")
-        else
-            perform division,display result and ask whether to continue or exit.
-_________________________________________________________________________________________________________________________________________
-Choose to continue or exit operations -:
-    if calc = Y then
-        start from initial step from entering operation to perform.
-    if calc != Y then
-        print("Calculator Shutdown Successfully") and break loop to exit from program.
+Then, creating a object for BinarySearchTree class to call methods inside that class.
+
+    1. bst.insert(key,value) used to insert the nodes in the BST.2. bst.search(key) used to search node in the tree with the help of key provided during call of function to search matching key. If not found, prints message "No record found in the database."
+    2.bst.inorder_traversal() performs traversal and returns sorted key-value pairs in list of tupels in result[]
+    3. bst.delete(bst.root,key) performs delete operation calling the delete function finds the key and according to that deletes the node from the tree
 _________________________________________________________________________________________________________________________________________
